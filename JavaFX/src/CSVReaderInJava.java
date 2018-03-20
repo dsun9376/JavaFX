@@ -14,9 +14,11 @@ import java.util.List;
  * @author WINDOWS 8
  *  
  */
+
+
 public class CSVReaderInJava {
 	 public static void main(String... args) {
-	        List<Book> books = readBooksFromCSV("books.txt");
+	        List<Book> books = readBooksFromCSV("idk.txt");
 
 	        // let's print all the person read from CSV file
 	        for (Book b : books) {
@@ -109,7 +111,7 @@ public class CSVReaderInJava {
 
 	    @Override
 	    public String toString() {
-	        return "Book [name=" + name + ", price=" + price + ", author=" + author
+	        return "Book [name =" + name + ", price =" + price + ", author =" + author
 	                + "]";
 	    }
 
